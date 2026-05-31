@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <title>HLIMPORTADOS</title>
+
+    <style>
+        body {
+            font-family: 'Inter-medium', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        h1 {
+            font-weight: 900;
+            font-size: clamp(2rem, 5vw, 3rem);
+        }
+
+        h2 {
+            font-weight: 800;
+            font-size: clamp(1.5rem, 4vw, 2.25rem);
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 1.125rem;
+        }
+
+        /* Estilo para a logo */
+        .logo {
+            max-width: 250px;
+            height: auto;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Imagem de fundo com efeito de revelação -->
+    <div class="background-image"></div>
+
+    <!-- CARROSSEL DE IMAGENS -->
+    <div class="carousel-container">
+        <div class="carousel-track">
+            <div class="carousel-item">
+                <img src="imagens/0c8ed0395b9c126ae24be5334324e3e6.jpg" alt="iPhone 15 Pro Max">
+                <span class="item-label">iPhone 15 Pro Max</span>
+            </div>
+            <div class="carousel-item">
+                <img src="imagens/969d4b9e36a5f79085fed88114e77821.jpg" alt="AirPods Pro">
+                <span class="item-label">AirPods Pro</span>
+            </div>
+            <div class="carousel-item">
+                <img src="imagens/baixados (2).png" alt="Apple Watch">
+                <span class="item-label">Apple Watch</span>
+            </div>
+            <div class="carousel-item">
+                <img src="imagens/baixados.png" alt="MacBook Pro">
+                <span class="item-label">MacBook Pro</span>
+            </div>
+            <div class="carousel-item">
+                <img src="imagens/d37e350d3b658897feba826d648abd22.jpg" alt="iPhone 15 Pro Max">
+                <span class="item-label">iPhone</span>
+            </div>
+            <!-- Duplicar para animação contínua -->
+
+            <div class="carousel-item">
+                <img src="imagens/0c8ed0395b9c126ae24be5334324e3e6.jpg" alt="iPhone 15 Pro Max">
+                <span class="item-label">iPhone 15 Pro Max</span>
+            </div>
+            <div class="carousel-item">
+                <img src="imagens/969d4b9e36a5f79085fed88114e77821.jpg" alt="AirPods Pro">
+                <span class="item-label">AirPods Pro</span>
+            </div>
+            <div class="carousel-item">
+                <img src="imagens/baixados (2).png" alt="Apple Watch">
+                <span class="item-label">Apple Watch</span>
+            </div>
+            <div class="carousel-item">
+                <img src="imagens/baixados.png" alt="MacBook Pro">
+                <span class="item-label">MacBook Pro</span>
+            </div>
+            <div class="carousel-item">
+                <img src="imagens/d37e350d3b658897feba826d648abd22.jpg" alt="iPhone 15 Pro Max">
+                <span class="item-label">iPhone</span>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!-- REDES SOCIAIS -->
+    <div class="social-links">
+        <div class="social-item">
+            <a href="https://www.instagram.com/hlimportss_/" target="_blank" class="social-icon">
+                <img src="imagens/instagram.png" alt="Instagram">
+            </a>
+            <span class="social-name">Instagram</span>
+        </div>
+
+        <div class="social-item">
+            <a href="https://wa.me/5537991166506" target="_blank" class="social-icon">
+                <img src="imagens/whatsapp.png" alt="WhatsApp">
+            </a>
+            <span class="social-name">WhatsApp</span>
+        </div>
+
+        <div class="social-item">
+            <a href="https://www.facebook.com/hlimportados" target="_blank" class="social-icon">
+                <img src="imagens/facebook.png" alt="Facebook">
+            </a>
+            <span class="social-name">Facebook</span>
+        </div>
+    </div>
+
+    <!-- SOBRE NÓS -->
+    <section class="sobre-nos">
+        <h2>Sobre Nós</h2>
+        <p>Na HLIMPORTSS, nos dedicamos a oferecer produtos importados de alta qualidade, com foco especial
+            em
+            dispositivos Apple. Nossa missão é proporcionar aos nossos clientes uma experiência de compra
+            excepcional, garantindo a autenticidade e a qualidade de cada item que oferecemos.</p>
+    </section>
+
+
+    <!-- SEÇÃO DE PRODUTOS -->
+
+    <strong class="produtos-section">
+        <h4>Conheça os nossos produtos</h4>
+
+        <div class="produtos-grid">
+            <!-- Produto 1 -->
+            <div class="produto-card produto-1">
+                <div class="produto-image-wrapper">
+                    <img src="imagens/d37e350d3b658897feba826d648abd22.jpg" alt="iPhone 15 Pro Max"
+                        class="produto-image">
+                    <div class="produto-overlay">
+                        <span class="produto-badge">Novidade</span>
+                    </div>
+                </div>
+                <div class="produto-info">
+                    <h3 class="produto-titulo">iPhone 15 Pro Max</h3>
+                    <p class="produto-descricao">O mais avançado iPhone já criado</p>
+                    <div class="produto-preco">
+                        <span class="preco-anterior">R$ 00,00</span>
+                        <span class="preco-atual">R$ 00,00</span>
+                    </div>
+                    <button class="btn-produto">Ver Detalhes</button>
+                </div>
+            </div>
+
+            <!-- Produto 2 -->
+            <div class="produto-card produto-2">
+                <div class="produto-image-wrapper">
+                    <img src="imagens/baixados (2).png" alt="AirPods Pro" class="produto-image">
+                    <div class="produto-overlay">
+                        <span class="produto-badge destaque">Mais Vendido</span>
+                    </div>
+                </div>
+                <div class="produto-info">
+                    <h3 class="produto-titulo">AirPods Pro</h3>
+                    <p class="produto-descricao">Cancelamento ativo de ruído</p>
+                    <div class="produto-preco">
+                        <span class="preco-anterior">R$ 00,00</span>
+                        <span class="preco-atual">R$ 00,00</span>
+                    </div>
+                    <button class="btn-produto">Ver Detalhes</button>
+                </div>
+            </div>
+
+            <!-- Produto 3 -->
+            <div class="produto-card produto-3">
+                <div class="produto-image-wrapper">
+                    <img src="imagens/baixados.png" alt="Apple Watch Series 9" class="produto-image">
+                    <div class="produto-overlay">
+                        <span class="produto-badge">Lançamento</span>
+                    </div>
+                </div>
+                <div class="produto-info">
+                    <h3 class="produto-titulo">Apple Watch Series 9</h3>
+                    <p class="produto-descricao">Seu parceiro de saúde e fitness</p>
+                    <div class="produto-preco">
+                        <span class="preco-anterior">R$ 00,00</span>
+                        <span class="preco-atual">R$ 00,00</span>
+                    </div>
+                    <button class="btn-produto">Ver Detalhes</button>
+                </div>
+            </div>
+
+            <!-- Produto 4 -->
+            <div class="produto-card produto-4">
+                <div class="produto-image-wrapper">
+                    <img src="imagens/0c8ed0395b9c126ae24be5334324e3e6.jpg" alt="MacBook Air M3" class="produto-image">
+                    <div class="produto-overlay">
+                        <span class="produto-badge">Oferta</span>
+                    </div>
+                </div>
+                <div class="produto-info">
+                    <h3 class="produto-titulo">MacBook Air M3</h3>
+                    <p class="produto-descricao">Potência e portabilidade</p>
+                    <div class="produto-preco">
+                        <span class="preco-anterior">R$ 00,00</span>
+                        <span class="preco-atual">R$ 00,00</span>
+                    </div>
+                    <button class="btn-produto">Ver Detalhes</button>
+                </div>
+            </div>
+
+            <!-- Produto 5 -->
+            <div class="produto-card produto-5">
+                <div class="produto-image-wrapper">
+                    <img src="imagens/969d4b9e36a5f79085fed88114e77821.jpg" alt="iPad Pro" class="produto-image">
+                    <div class="produto-overlay">
+                        <span class="produto-badge">Premium</span>
+                    </div>
+                </div>
+                <div class="produto-info">
+                    <h3 class="produto-titulo">Acessórios</h3>
+                    <p class="produto-descricao">Sua criatividade sem limites</p>
+                    <div class="produto-preco">
+
+                    </div>
+                    <button class="btn-produto">Solicitar orçamento</button>
+                </div>
+            </div>
+        </div>
+        </section>
+
+        
+        <!-- GALERIA COM EFEITO DE SCROLL HORIZONTAL -->
+        <section class="galeria-scroll">
+            <h2 class="galeria-titulo">Nossos Destaques</h2>
+            <p class="galeria-subtitulo">Produtos de qualidade premium importados diretamente para você</p>
+
+            <div class="galeria-wrapper">
+                <div class="galeria-container">
+                    <!-- Item 1 - VIDEO -->
+                    <div class="galeria-item scroll-reveal" data-delay="0">
+                        <div class="galeria-image-wrapper video-preview" data-video="video1">
+                            <video class="galeria-image preview-video" autoplay loop muted playsinline id="preview1">
+                                <source src="imagens/snapinsta.com.br-6a1c61da1a51d.mp4" type="video/mp4">
+                                Seu navegador não suporta vídeos.
+                            </video>
+                            <div class="galeria-overlay">
+                                <h3>Produtos Premium</h3>
+                                <p>Clique para assistir</p>
+                                <span class="galeria-tag">▶ Play</span>
+                            </div>
+                            <div class="play-icon">▶</div>
+                        </div>
+                    </div>
+
+                    <!-- Item 2 - VIDEO -->
+                    <div class="galeria-item scroll-reveal" data-delay="1">
+                        <div class="galeria-image-wrapper video-preview" data-video="video2">
+                            <video class="galeria-image preview-video" autoplay loop muted playsinline id="preview2">
+                                <source src="imagens/snapinsta.com.br-6a1c618367be2.mp4" type="video/mp4">
+                                Seu navegador não suporta vídeos.
+                            </video>
+                            <div class="galeria-overlay">
+                                <h3>Tecnologia de Ponta</h3>
+                                <p>Clique para assistir</p>
+                                <span class="galeria-tag">▶ Play</span>
+                            </div>
+                            <div class="play-icon">▶</div>
+                        </div>
+                    </div>
+
+                    <!-- Item 3 - VIDEO -->
+                    <div class="galeria-item scroll-reveal" data-delay="2">
+                        <div class="galeria-image-wrapper video-preview" data-video="video3">
+                            <video class="galeria-image preview-video" autoplay loop muted playsinline id="preview3">
+                                <source src="imagens/snapinsta.com.br-6a1c61145387d.mp4" type="video/mp4">
+                                Seu navegador não suporta vídeos.
+                            </video>
+                            <div class="galeria-overlay">
+                                <h3>Qualidade Garantida</h3>
+                                <p>Clique para assistir</p>
+                                <span class="galeria-tag">▶ Play</span>
+                            </div>
+                            <div class="play-icon">▶</div>
+                        </div>
+                    </div>
+
+                    <!-- Item 4 - VÍDEO -->
+                    <div class="galeria-item scroll-reveal" data-delay="3">
+                        <div class="galeria-image-wrapper video-preview" data-video="video4">
+                            <video class="galeria-image preview-video" autoplay loop muted playsinline id="preview4">
+                                <source
+                                    src="imagens/SaveInta.com_AQNgQT93AdJBQJPnvRduyWyU6RewJcVmAkjPhBOxM1nAn3n02k2iIKlW3t0IuMWFJigf1Z4SIYkdsOM3GP-j7n6HoehPhksT-qfTE3A.mp4"
+                                    type="video/mp4">
+                                Seu navegador não suporta vídeos.
+                            </video>
+                            <div class="galeria-overlay">
+                                <h3>Manutenção Apple</h3>
+                                <p>Clique para assistir</p>
+                                <span class="galeria-tag">▶ Play</span>
+                            </div>
+                            <div class="play-icon">▶</div>
+                        </div>
+                    </div>
+
+                    <!-- Item 5 - VÍDEO -->
+                    <div class="galeria-item scroll-reveal" data-delay="4">
+                        <div class="galeria-image-wrapper video-preview" data-video="video5">
+                            <video class="galeria-image preview-video" autoplay loop muted playsinline id="preview5">
+                                <source
+                                    src="imagens/SaveInta.com_AQMhFw6GOcZQ9oRUifsMwhYagstkawwtRVss8bsS4TEGA2gqdoHUwOjS1mnqf_L8t7Jr6BaplpBtjZvoGHI8MSmSUCbOI1wrYerwYNI.mp4"
+                                    type="video/mp4">
+                                Seu navegador não suporta vídeos.
+                            </video>
+                            <div class="galeria-overlay">
+                                <h3>Assistência Técnica</h3>
+                                <p>Clique para assistir</p>
+                                <span class="galeria-tag">▶ Play</span>
+                            </div>
+                            <div class="play-icon">▶</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- MODAL DE VÍDEO FULLSCREEN -->
+        <div id="videoModal" class="video-modal">
+            <div class="video-modal-content">
+                <span class="video-modal-close">&times;</span>
+                <video id="modalVideo" controls>
+                    <source id="modalVideoSource" src="" type="video/mp4">
+                    Seu navegador não suporta vídeos.
+                </video>
+            </div>
+        </div>
+        <!-- LOGO COM MARCA D'ÁGUA -->
+        <img src="imagens/611696272_18084990614167076_753986898831241752_n.png" alt="HL IMPORTSS"
+            class="marca-dagua-centro">
+
+        <!-- MANUTENÇÃO DE APARELHOS -->
+        <section class="manutencao-section">
+            <img src="imagens/SaveInta.com_674502212_18095695736167076_8799500235187705119_n.jpg"
+                alt="Manutenção de Aparelhos" class="manutencao-image">
+            <h4>Manutenção de Aparelhos</h4>
+            <p>Oferecemos serviços de manutenção para todos os produtos Apple. Entre em contato para mais informações.
+            </p>
+        </section>
+
+        <!-- SEÇÃO DE DEPOIMENTOS -->
+        <section class="depoimentos-section">
+            <h2 class="depoimentos-titulo">O que nossos clientes dizem</h2>
+            <p class="depoimentos-subtitulo">Depoimentos reais de clientes satisfeitos nas redes sociais</p>
+
+            <div class="depoimentos-container">
+                <!-- Depoimento 1 -->
+                <div class="depoimento-card">
+                    <div class="depoimento-image-wrapper">
+                        <img src="imagens/658995322_18092755670583089_2856948357825657781_n.jpg"
+                            alt="Depoimento de João Silva" class="depoimento-image">
+                        <div class="depoimento-overlay">
+                            <span class="depoimento-fonte">📱 Instagram</span>
+                        </div>
+                    </div>
+                    <div class="depoimento-info">
+                        <p class="depoimento-nome">@_ruancarlos.7</p>
+                        <P CLASS="depoimento-texto">"Comprei um iPhone 15 Pro Max e estou impressionado com a qualidade e o atendimento da HLIMPORTSS!"</P>
+                        <p class="depoimento-data">Há 2 dias</p>
+                    </div>
+                </div>
+
+                <!-- Depoimento 2 -->
+                <div class="depoimento-card">
+                    <div class="depoimento-image-wrapper">
+                        <img src="imagens/528698327_17969813288926195_5944868704097211665_n.jpg" alt="Depoimento de Maria Oliveira" class="depoimento-image">
+                        <div class="depoimento-overlay">
+                            <span class="depoimento-fonte">💬 WhatsApp</span>
+                        </div>
+                    </div>
+                    <div class="depoimento-info">
+                        <p class="depoimento-nome">@diamondduckassessoria</p>
+                        <P CLASS="depoimento-texto">"A experiência de compra foi incrível! Recomendo a HLIMPORTSS para todos!"</P>
+                        <p class="depoimento-data">Há 5 dias</p>
+                    </div>
+                </div>
+
+                <!-- Depoimento 3 -->
+                <div class="depoimento-card">
+                    <div class="depoimento-image-wrapper">
+                        <img src="imagens/684217549_17949669093152820_7894663850418786934_n.jpg" alt="Depoimento de Carlos Pereira" class="depoimento-image">
+                        <div class="depoimento-overlay">
+                            <span class="depoimento-fonte">⭐ Google Reviews</span>
+                        </div>
+                    </div>
+                    <div class="depoimento-info">
+                        <p class="depoimento-nome">@carlospereira</p>
+                        <P CLASS="depoimento-texto">"A qualidade dos produtos é excepcional! Estou muito satisfeito com a minha compra."</P>
+                        <p class="depoimento-data">Há 1 semana</p>
+                    </div>
+                </div>
+
+                <!-- Depoimento 4 -->
+                <div class="depoimento-card">
+                    <div class="depoimento-image-wrapper">
+                        <img src="imagens/586677904_18184947196348104_7892531689630839657_n.jpg" alt="Depoimento Cliente 4" class="depoimento-image">
+                        <div class="depoimento-overlay">
+                            <span class="depoimento-fonte">instagram</span>
+                        </div>
+                    </div>
+                    <div class="depoimento-info">
+                        <p class="depoimento-nome">@analuiza</p>
+                        <P CLASS="depoimento-texto">"Comprei um MacBook Air M3 e estou impressionada com a rapidez da entrega e a qualidade do produto!"</P>
+                        <p class="depoimento-data">Há 3 dias</p>
+                    </div>
+                </div>
+
+                <!-- Depoimento 5 -->
+                <div class="depoimento-card">
+                    <div class="depoimento-image-wrapper">
+                        <img src="imagens/671876087_18086267885174734_4224689507830124141_n.jpg" alt="Depoimento Cliente 5" class="depoimento-image">
+                        <div class="depoimento-overlay">
+                            <span class="depoimento-fonte"> Instagram</span>
+                        </div>
+                    </div>
+                    <div class="depoimento-info">
+                        <p class="depoimento-nome">@diaondtecsolucoes</p>
+                        <P CLASS="depoimento-texto">"A assistência técnica da HLIMPORTSS é excelente! Meu iPhone foi consertado rapidamente e voltou como novo."</P>
+                        <p class="depoimento-data">Há 4 dias</p>
+                    </div>
+                </div>
+
+                <!-- Depoimento 6 -->
+                <div class="depoimento-card">
+                    <div class="depoimento-image-wrapper">
+                        <img src="imagens/d37e350d3b658897feba826d648abd22.jpg" alt="Depoimento Cliente 6" class="depoimento-image">
+                        <div class="depoimento-overlay">
+                            <span class="depoimento-fonte">💬 WhatsApp</span>
+                        </div>
+                    </div>
+                    <div class="depoimento-info">
+                        <p class="depoimento-nome">julianacosta</p>
+                        <P CLASS="depoimento-texto">"Comprei um iPad Pro e estou amando! A qualidade é incrível e o atendimento foi super atencioso."</P>
+                        <p class="depoimento-data">Há 2 semanas</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script>
+            // === MODAL DE DEPOIMENTOS ===
+            document.addEventListener('DOMContentLoaded', function () {
+                const depoimentoModal = document.getElementById('depoimentoModal');
+                const depoimentoModalImage = document.getElementById('depoimentoModalImage');
+                const depoimentoModalClose = document.querySelector('.depoimento-modal-close');
+
+                // Adicionar clique em todos os cards de depoimento
+                const depoimentoCards = document.querySelectorAll('.depoimento-card');
+
+                depoimentoCards.forEach(function (card) {
+                    card.addEventListener('click', function () {
+                        const image = this.querySelector('.depoimento-image');
+                        if (image) {
+                            depoimentoModalImage.src = image.src;
+                            depoimentoModal.classList.add('show');
+                        }
+                    });
+                });
+
+                // Fechar modal
+                depoimentoModalClose.addEventListener('click', function () {
+                    depoimentoModal.classList.remove('show');
+                });
+
+                // Fechar ao clicar fora
+                depoimentoModal.addEventListener('click', function (e) {
+                    if (e.target === depoimentoModal) {
+                        depoimentoModal.classList.remove('show');
+                    }
+                });
+
+                // Fechar com ESC
+                document.addEventListener('keydown', function (e) {
+                    if (e.key === 'Escape' && depoimentoModal.classList.contains('show')) {
+                        depoimentoModal.classList.remove('show');
+                    }
+                });
+            });
+            // === SISTEMA DE VÍDEO CLICÁVEL ===
+            document.addEventListener('DOMContentLoaded', function () {
+                const modal = document.getElementById('videoModal');
+                const modalVideo = document.getElementById('modalVideo');
+                const modalVideoSource = document.getElementById('modalVideoSource');
+                const closeBtn = document.querySelector('.video-modal-close');
+
+                // Mapeamento de vídeos - CAMINHOS CORRETOS
+                const videoMap = {
+                    'video1': 'imagens/snapinsta.com.br-6a1c61da1a51d.mp4',
+                    'video2': 'imagens/snapinsta.com.br-6a1c618367be2.mp4',
+                    'video3': 'imagens/snapinsta.com.br-6a1c61145387d.mp4',
+                    'video4': 'imagens/SaveInta.com_AQNgQT93AdJBQJPnvRduyWyU6RewJcVmAkjPhBOxM1nAn3n02k2iIKlW3t0IuMWFJigf1Z4SIYkdsOM3GP-j7n6HoehPhksT-qfTE3A.mp4',
+                    'video5': 'imagens/SaveInta.com_AQMhFw6GOcZQ9oRUifsMwhYagstkawwtRVss8bsS4TEGA2gqdoHUwOjS1mnqf_L8t7Jr6BaplpBtjZvoGHI8MSmSUCbOI1wrYerwYNI.mp4'
+                };
+
+                // Adicionar evento de clique em todos os vídeos de prévia
+                const videoPreviews = document.querySelectorAll('.video-preview');
+
+                videoPreviews.forEach(function (preview) {
+                    preview.addEventListener('click', function () {
+                        const videoId = this.getAttribute('data-video');
+                        const videoSrc = videoMap[videoId];
+
+                        if (videoSrc) {
+                            // Pausar vídeo de preview
+                            const previewVideo = this.querySelector('.preview-video');
+                            if (previewVideo) {
+                                previewVideo.pause();
+                            }
+
+                            // Configurar e abrir modal
+                            modalVideoSource.src = videoSrc;
+                            modalVideo.load();
+                            modal.classList.add('show');
+
+                            // Iniciar reprodução
+                            setTimeout(function () {
+                                modalVideo.play();
+                            }, 300);
+                        }
+                    });
+                });
+
+                // Fechar modal ao clicar no X
+                closeBtn.addEventListener('click', closeModal);
+
+                // Fechar modal ao clicar fora do vídeo
+                modal.addEventListener('click', function (e) {
+                    if (e.target === modal) {
+                        closeModal();
+                    }
+                });
+
+                // Fechar modal com tecla ESC
+                document.addEventListener('keydown', function (e) {
+                    if (e.key === 'Escape' && modal.classList.contains('show')) {
+                        closeModal();
+                    }
+                });
+
+                // Função para fechar modal
+                function closeModal() {
+                    modal.classList.remove('show');
+                    modalVideo.pause();
+                    modalVideo.currentTime = 0;
+                    modalVideoSource.src = '';
+
+                    // Retomar prévias
+                    const previewVideos = document.querySelectorAll('.preview-video');
+                    previewVideos.forEach(function (video) {
+                        video.play();
+                    });
+                }
+            });
+        </script>
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <div class="container footer-inner">
+                <p>&copy; 2026 HIMPORTSS. Todos os direitos reservados.</p>
+                <div class="socials">
+
+                </div>
+                <div class="footer-logo">
+                    <img src="imagens/Juarez Silva.png" alt="Juarez Silva Logo">
+                    Este site foi criado por Juarez Silva. Solicite um orçamento para o seu projeto de site, loja
+                    virtual ou sistema de gestão empresarial.
+                    <a href="https://wa.me/+5537998292274?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20cria%C3%A7%C3%A3o%20de%20site%20ou%20sistema." aria-label="WhatsApp">WhatsApp</a>
+
+                </div>
+            </div>
+        </footer>
+</body>
+
+
+<!-- JavaScript -->
+<script>
+    let currentIndex = 0;
+    const slides = document.querySelectorAll('.carousel-slide');
+    const dots = document.querySelectorAll('.dot');
+    let autoSlideInterval;
+
+    // Função para mostrar slide específico
+    function showSlide(index) {
+        if (slides.length > 0) {
+            slides.forEach(slide => slide.classList.remove('active'));
+            dots.forEach(dot => dot.classList.remove('active'));
+
+            if (index >= slides.length) currentIndex = 0;
+            if (index < 0) currentIndex = slides.length - 1;
+
+            slides[currentIndex].classList.add('active');
+            if (dots[currentIndex]) dots[currentIndex].classList.add('active');
+        }
+    }
+
+    // Função para mover slides
+    function moveSlide(direction) {
+        currentIndex += direction;
+        showSlide(currentIndex);
+        resetAutoSlide();
+    }
+
+    // Função para ir para slide específico
+    function currentSlide(index) {
+        currentIndex = index;
+        showSlide(currentIndex);
+        resetAutoSlide();
+    }
+
+    // Função para avançar automaticamente
+    function autoSlide() {
+        currentIndex++;
+        if (currentIndex >= slides.length) currentIndex = 0;
+        showSlide(currentIndex);
+    }
+
+    // Reiniciar timer automático
+    function resetAutoSlide() {
+        clearInterval(autoSlideInterval);
+        autoSlideInterval = setInterval(autoSlide, 4000);
+    }
+
+    // Iniciar carrossel automático se existir
+    if (document.querySelector('.carousel-container')) {
+        autoSlideInterval = setInterval(autoSlide, 4000);
+
+        // Pausar ao passar o mouse
+        document.querySelector('.carousel-container').addEventListener('mouseenter', () => {
+            clearInterval(autoSlideInterval);
+        });
+
+        // Retomar ao tirar o mouse
+        document.querySelector('.carousel-container').addEventListener('mouseleave', () => {
+            autoSlideInterval = setInterval(autoSlide, 4000);
+        });
+    }
+
+    // Efeito de fade out da logo ao rolar
+    window.addEventListener('scroll', function () {
+        const logoBanner = document.querySelector('.logo-banner');
+
+        if (logoBanner) {
+            const scrolled = window.pageYOffset;
+            const bannerTop = logoBanner.offsetTop;
+            const bannerHeight = logoBanner.offsetHeight;
+
+            // Calcula a opacidade baseada no scroll
+            if (scrolled > bannerTop - window.innerHeight) {
+                const scrollDistance = scrolled - (bannerTop - window.innerHeight);
+                const fadeDistance = bannerHeight + 400;
+                const opacity = 1 - (scrollDistance / fadeDistance);
+
+                // Define opacidade e escala
+                logoBanner.style.opacity = Math.max(0, opacity);
+                logoBanner.style.transform = 'scale(' + Math.max(0.8, opacity) + ')';
+            } else {
+                logoBanner.style.opacity = 1;
+                logoBanner.style.transform = 'scale(1)';
+            }
+        }
+    });
+
+    // Efeito de revelação da imagem de fundo ao rolar
+    window.addEventListener('scroll', function () {
+        const scrolled = window.pageYOffset;
+        const background = document.querySelector('.background-image');
+
+        if (background) {
+            const maxScroll = document.body.scrollHeight - window.innerHeight;
+            const scrollPercent = scrolled / maxScroll;
+
+            // Aumenta opacidade conforme rola (de 0.1 até 0.4)
+            const newOpacity = 0.1 + (scrollPercent * 0.3);
+            background.style.opacity = newOpacity;
+        }
+    });
+    // === EFEITO DE REVELAÇÃO AO SCROLL ===
+    function revelarElementos() {
+        const elementos = document.querySelectorAll('.scroll-reveal');
+        const alturaJanela = window.innerHeight;
+
+        elementos.forEach(elemento => {
+            const topoElemento = elemento.getBoundingClientRect().top;
+            const pontoRevelacao = 150; // Pixels antes do elemento aparecer
+
+            if (topoElemento < alturaJanela - pontoRevelacao) {
+                elemento.classList.add('reveal');
+            } else {
+                // Remove a classe se rolar para cima (opcional)
+                // elemento.classList.remove('reveal');
+            }
+        });
+    }
+
+    // === EFEITO DE REVELAÇÃO PROGRESSIVA AO SCROLL ===
+    let galeriaRevelada = false;
+
+    function revelarGaleria() {
+        const galeriaSection = document.querySelector('.galeria-scroll');
+        const elementos = document.querySelectorAll('.scroll-reveal');
+
+        if (!galeriaSection || galeriaRevelada) return;
+
+        const alturaJanela = window.innerHeight;
+        const topoSecao = galeriaSection.getBoundingClientRect().top;
+        const pontoRevelacao = alturaJanela * 0.6; // Revela quando 60% visível
+
+        if (topoSecao < pontoRevelacao) {
+            // Revela todos os elementos progressivamente
+            elementos.forEach((elemento, index) => {
+                setTimeout(() => {
+                    elemento.classList.add('reveal');
+                }, index * 150); // 150ms de delay entre cada um
+            });
+
+            galeriaRevelada = true;
+
+            // Opcional: Previne scroll até todos aparecerem
+            // const tempoTotal = elementos.length * 150 + 800;
+            // document.body.style.overflow = 'hidden';
+            // setTimeout(() => {
+            //     document.body.style.overflow = 'auto';
+            // }, tempoTotal);
+        }
+    }
+
+    // Executa ao carregar a página
+    window.addEventListener('load', revelarGaleria);
+
+    // Executa ao rolar a página
+    window.addEventListener('scroll', revelarGaleria);
+
+    // Executa ao redimensionar a janela
+    window.addEventListener('resize', () => {
+        galeriaRevelada = false;
+        revelarGaleria();
+    });
+</script>
+
+</body>
+
+</html>
